@@ -1,0 +1,40 @@
+.btn-custom {
+    background-color: #F3D13C;
+    border-color: black;
+    border-width: 1px; /* Smaller border */
+    color: black;
+}
+.btn-custom:hover {
+    background-color: #F3D13C;
+    border-color: black;
+}
+.text-blue {
+    color: #007bff; /* Bootstrap's primary blue color */
+}
+.form-container {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Add padding inside the border */
+    background-color: #f9f9f9; /* Light background color */
+    max-width: 400px; /* Reduced max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    font-size: 0.875rem; /* Reduced font size for the container */
+}
+.form-group {
+    margin-bottom: 1rem; /* Maintain margin between form groups */
+}
+.form-container label {
+    font-weight: bold; /* Make labels bold */
+    font-size: 0.875rem; /* Reduced font size for labels */
+    margin-bottom: 0.125rem; /* Reduce space between label and input */
+}
+.form-control {
+    font-size: 0.875rem; /* Reduced font size for inputs */
+    margin-top: 0.25rem; /* Reduce space between input and top of the container */
+}
+.is-invalid {
+    border-color: #dc3545; /* Red border for invalid input */
+}
+.invalid-feedback {
+    display: block; /* Show error message */
+}
